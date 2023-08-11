@@ -1,3 +1,8 @@
+//For this lab I had to initialize the Port F on the microcontroller. In the "PortF_Init" function I had to choose, what pins would be the outputs and what pins the inputs and I also had to 
+//enable them as digital pins with no analog function.
+//In the "main" function, the program infinitely loops and reads pins PF4 and PF0. Based on their values the LED will be either blue, red, green or off. 
+//"IF" statements were used to determine the color for the LED.
+
 // If both switches SW1 and SW2 are pressed, the LED should be blue
 // If just SW1 switch is pressed,            the LED should be red
 // If just SW2 switch is pressed,            the LED should be green
